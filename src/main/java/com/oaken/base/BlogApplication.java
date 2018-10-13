@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @SpringBootApplication
 @EnableTransactionManagement  // 启注解事务管理，等同于xml配置方式的 <tx:annotation-driven />
-@MapperScan("cn.wmyskxz.blog.dao")
+@MapperScan("com.oaken.base.dao")
 public class BlogApplication extends WebMvcConfigurerAdapter {
 
     public static void main(String[] args) {
