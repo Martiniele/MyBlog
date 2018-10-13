@@ -1,7 +1,6 @@
 package com.oaken.base.controller;
 
 import com.oaken.base.dto.ArticleDto;
-import cn.wmyskxz.blog.entity.*;
 import com.oaken.base.entity.CategoryInfo;
 import com.oaken.base.entity.Comment;
 import com.oaken.base.entity.User;
